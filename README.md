@@ -87,4 +87,4 @@ python3 plot_bands.py
 
 ## Author
 
-Rania — May 2026
+Rania Zaier 2026
