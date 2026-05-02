@@ -1,0 +1,5 @@
+&BANDS
+  prefix      = 'diamond_F_bands'
+  outdir      = './tmp'
+  filband     = 'diamond_F.bands'
+/

@@ -1,0 +1,35 @@
+&CONTROL
+  calculation = 'relax'
+  prefix      = 'diamond'
+  outdir      = './tmp'
+  pseudo_dir  = '/home/rania/diamond_project'
+  etot_conv_thr = 1e-5
+  forc_conv_thr = 1e-4
+/
+&SYSTEM
+  ibrav=0 nat=8 ntyp=1
+  ecutwfc=40.0 ecutrho=160.0
+/
+&ELECTRONS
+  conv_thr=1e-8
+/
+&IONS
+  ion_dynamics='bfgs'
+/
+ATOMIC_SPECIES
+  C  12.011  C.pbe-n-kjpaw_psl.1.0.0.UPF
+CELL_PARAMETERS angstrom
+  2.522   0.000   0.000
+  1.261   2.184   0.000
+  0.000   0.000  20.000
+ATOMIC_POSITIONS angstrom
+  C  0.000  0.000  0.000
+  C  1.261  0.728  0.515
+  C  0.000  0.000  2.060
+  C  1.261  0.728  2.575
+  C  0.000  0.000  4.120
+  C  1.261  0.728  4.635
+  C  0.000  0.000  6.180
+  C  1.261  0.728  6.695
+K_POINTS automatic
+  4 4 1 0 0 0

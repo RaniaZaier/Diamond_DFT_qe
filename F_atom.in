@@ -1,0 +1,25 @@
+&CONTROL
+  calculation='scf'
+  prefix='F_atom'
+  outdir='./tmp'
+  pseudo_dir='/home/rania/diamond_project'
+/
+&SYSTEM
+  ibrav=0 nat=1 ntyp=1
+  ecutwfc=40.0 ecutrho=160.0
+  occupations='smearing'
+  smearing='mv'
+  degauss=0.02
+/
+&ELECTRONS
+  conv_thr=1e-8
+/
+ATOMIC_SPECIES
+  F  18.998  F.pbe-n-kjpaw_psl.1.0.0.UPF
+CELL_PARAMETERS angstrom
+  12.000   0.000   0.000
+   0.000  12.000   0.000
+   0.000   0.000  12.000
+ATOMIC_POSITIONS angstrom
+  F  6.000  6.000  6.000
+K_POINTS gamma

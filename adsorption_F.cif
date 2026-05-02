@@ -1,0 +1,23 @@
+data_diamond_F
+_cell_length_a   2.522
+_cell_length_b   2.522
+_cell_length_c   20.000
+_cell_angle_alpha   90.000
+_cell_angle_beta    90.000
+_cell_angle_gamma   120.000
+_symmetry_space_group_name_H-M   'P 1'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1  C  0.000  0.000  0.000
+C2  C  0.500  0.333  0.026
+C3  C  0.000  0.000  0.103
+C4  C  0.500  0.333  0.129
+C5  C  0.000  0.000  0.206
+C6  C  0.500  0.333  0.232
+C7  C  0.000  0.000  0.309
+C8  C  0.500  0.333  0.335
+F1  F  0.000  0.000  0.405
