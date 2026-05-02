@@ -88,4 +88,3 @@ python3 plot_bands.py
 ## Author
 
 Rania — May 2026
-Prepared as part of application for CADENA postdoctoral position (IMN Nantes)
