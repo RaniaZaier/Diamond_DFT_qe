@@ -1,7 +1,6 @@
 # DFT Study of Fluorine Adsorption on Diamond C(111) Surface
 
-A minimal DFT workflow using Quantum ESPRESSO to study F adsorption on diamond,
-directly relevant to WP2 of the CADENA project (surface functionalization of diamond).
+A minimal DFT workflow using Quantum ESPRESSO to study F adsorption on diamond.
 
 ## Scientific context
 
@@ -29,8 +28,6 @@ energy of a fluorine atom on the C(111) surface using DFT-PBE.
 
 The large negative value confirms strong, spontaneous chemisorption of F on
 the diamond surface, consistent with the known strength of the C-F bond.
-This is directly relevant to fluorine-terminated diamond electrodes studied
-in CADENA WP2.
 
 ## Results visualization
 
