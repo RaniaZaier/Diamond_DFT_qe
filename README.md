@@ -48,7 +48,6 @@ the C-F bond saturates the dangling bonds and opens a gap at the surface.
 This electronic effect is central to the electrochemical properties of
 fluorinated diamond electrodes.
 
-![Band structure bare](band_structure.png)
 
 ## Files
 
